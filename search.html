@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasil Pencarian Rumah Adat di Sumatera Utara</title>
+</head>
+<body>
+    <header style="display: flex; justify-content: space-between; align-items: center; padding: 10px; background-color: #f4f4f4;">
+        <!-- Logo beranda -->
+        <a href="index.html">
+            <img src="images/home-icon.png" alt="Beranda" width="30">
+        </a>
+
+        <!-- Pencarian -->
+        <form action="search.html" method="get" style="display: flex; align-items: center;">
+            <input type="text" name="query" placeholder="Cari Rumah Adat..." style="padding: 5px;">
+            <button type="submit" style="padding: 5px; border: none; background: transparent; cursor: pointer;">
+                <img src="images/search-icon.png" alt="Cari" width="10">
+            </button>
+        </form>
+
+        <!-- Profil -->
+        <a href="profile.html">
+            <img src="images/profile-icon.png" alt="Profil" width="30">
+        </a>
+    </header>
+
+    <main style="padding: 20px;">
+        <section>
+            <figure style="text-align: center;">
+                <figcaption><h2>Hasil Pencarian untuk "<em>query</em>"</h2></figcaption>
+            </figure>
+            <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; justify-content: center;">
+                <!-- Contoh hasil pencarian, tambahkan lebih banyak li sesuai hasil pencarian -->
+                <li style="margin: 10px;">
+                    <a href="rumah_bolon.html">
+                        <figure style="text-align: center;">
+                            <img src="images/rumah_bolon.jpg" alt="Rumah Bolon" width="300" height="200" style="display: block; max-width: 100%;">
+                            <figcaption>Rumah Jabu Bolon</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li style="margin: 10px;">
+                    <a href="parsakitan.html">
+                        <figure style="text-align: center;">
+                            <img src="images/Rumah-Jabu-Parsakitan.jpg" alt="Parsakitan" width="300" height="200" style="display: block; max-width: 100%;">
+                            <figcaption>Rumah Jabu Parsakitan</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <!-- Tambahkan hasil lainnya di sini -->
+            </ul>
+        </section>
+    </main>
+
+    <div style="text-align: center; padding: 20px;">
+        <a href="referensi.html">Referensi</a>
+    </div>
+</body>
+</html>
